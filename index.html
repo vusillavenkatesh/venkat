@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+   
+    <title>Vusilla Venkatesh Portfolio</title>
+</head>
+<body>
+    <style>
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #293241;
+    overflow: hidden;
+}
+
+.header{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 25px;
+    color: #98c1d9;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+.logo span{
+    color: #e0fbfc;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.nav-links ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #e0fbfc;
+    transition: 0.4s;
+}
+
+.nav-links ul li a:hover{
+    color: #98c1d9;
+    font-size: 25px;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: #e0fbfc;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    background: #3d5a80;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, 
+    rgba(0, 0, 0, 0.4) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.btn-primary{
+    margin-left: 90px;
+    color: #3d5a80;
+    background: #e0fbfc;
+}
+
+.btn:hover{
+    scale: 105%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.main-content{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    position: relative;
+    width: 1400px;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+    width: 80px;
+    border-bottom: 8px solid #560b9c;
+    margin-bottom: 30px;
+}
+
+.main h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #98c1d9;
+    line-height: 1;
+}
+
+.main h2{
+   font-size: 40px; 
+   color: #319edd;
+   margin-bottom: 50px;
+}
+
+.main span{
+    color: #68da6e;
+}
+
+.main p{
+    width: 1000px;
+    font-size: 17px;
+    color: #e0fbfc;
+    margin-bottom: 70px;
+    letter-spacing: 0.05em;
+}
+
+
+
+.image{
+    position: relative;
+    width:500px;
+    height: 400px;
+    border-radius: 100%;
+    
+    z-index: 8888;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim{
+    0%{
+        top: 50px;
+    }
+    50%{
+        top: 100px;
+    }
+    100%{
+        top: 50px;
+    }
+}
+
+.image img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 40%;
+    scale: 150%;
+    border-radius: 50%  ;
+}
+
+.social{
+    position: absolute;
+    bottom: 17%;
+    left: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 70px;
+}
+
+.social i{
+    color: #3d5a80;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+.social i:hover{
+    color: #ee6c4d;
+    scale: 105%;
+}
+
+
+
+
+
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0ebf3;
+    border: 2px solid #d3267c;
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.social .social-link:hover{
+    border: 2px solid #033813;
+    scale: 105%;
+}
+
+    </style>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+             
+            </div>
+            <div class="nav-links">
+                    <a href="Aboutme.html" class="btn btn-primary">About</a>
+                     <a href="Education.html" class="btn btn-primary">Education</a>
+                     <a href="Project.html" class="btn btn-primary">Project </a>
+                     <a href="Certificate.html" class="btn btn-primary">Certificate</a>
+                    <a href="Contact.html "class="btn btn-primary">Contact</a>
+            </div>
+          
+        </header>
+        <div class="main-content">
+            <div class="main">
+                <div class="left">
+                    <div class="line"></div>
+                    <h1>I'M VUSILLA VENKATESH</h1>
+                    <h2>A <span class="auto-type"></span> </h2>
+                    <p> <b>To continuously enhance my knowledge, skills and experience getting in involved in most challenging and dynamic work and try to give maximum effort for the betterment of the organization and individual growth as well, to the best of my ability. I could put my fast learning and hardworking capabilities to work and develop my competencies and growth in my carrier along with the organization</b></p>
+                    <a href="resume.html" class="btn btn-primary">View Resume</a>
+                    
+                </div>
+                <div class="center">
+                    <div class="image">
+                        <img src="pic.jpg" alt="">
+                      
+                    </div>
+                
+                </div>
+            </div>
+            <div class="social">
+            
+
+                <div class="social-link">
+                    
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="linkedin.com/in/venkatesh-vusilla-20a135281">_</a>
+                </div>
+                <div class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/gamer_venky/">_</a>
+                </div>
+        
+                <div class="social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                    <a href="https://www.facebook.com/profile.php?id=100057000730423&mibextid=ZbWKwL">_</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings:["Java Developer..", "Coder..", "Creator.."],
+            typeSpeed:90,
+            backSpeed:80,
+            loop:true
+        })
+    </script>
+</body>
+</html>
